@@ -640,7 +640,7 @@
 
 /* HASTA 320px*/
 
-@media screen and (min-width: 320) {
+@media screen and (max-width: 320) {
     .header {
         height: 62vh;
         /* background-color: white; */
