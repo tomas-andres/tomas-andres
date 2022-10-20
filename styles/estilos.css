@@ -640,10 +640,155 @@
 
 /* HASTA 320px*/
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
     .header{
-        height: 48vh;
+        flex-direction: column;
+        height: auto;
+    } 
+
+    .menu{
+        flex-direction: column;
+    }  
+
+    .header__logo {
+        width: 220px;
+        margin-top: 1rem;
+        border: solid;
+    }
+
+    
+    .hero__cont {
+        padding: 4rem;
+        color: white;
+        text-align: center;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .hero__titulo{
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .hero__parrafo{
+        margin-top: 12rem;
+    }
+
+    .info{
         flex-direction: column;
     }
 
-} 
+    .infocard {
+        width: auto;
+        text-align: center;
+        margin: 2rem 0rem;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+    
+
+    .infocard__titulo{
+        margin-top: 2rem;
+    }
+
+    .infocard__desc{
+        font-size: 15px;
+    }
+
+    .infocard__img {
+        border-radius: 2%;
+        width: 320px;
+        height: 198px;
+        margin-left: -16px;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .info {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .infocard__img {
+            border-radius: 2%;
+            width: 450px;
+            height: 300;
+        }
+}        
+/*
+@media screen and (max-width: 1024px) {       
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infocard__img {
+        border-radius: 2%;
+        width: 450px;
+        height: 300;
+    }
+
+    .menu {
+        font-size: 25px;
+    }
+
+    .header__logo {
+        width: 328px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .hero__titulo{
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero__parrafo {
+        font-family: 'Play', sans-serif;
+        font-size: 1.5rem;
+        margin-top: 10rem;
+    }
+
+    .btn{
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .infocard__img{
+        width: 650px;
+    }
+
+    .infocard__titulo {
+        font-size: 30px;
+        font-family: 'Play', sans-serif;
+        margin-top: 2rem;
+    }
+
+    .infocard__titulo {
+        font-size: 30px;
+        font-family: 'Play', sans-serif;
+        margin-top: 2rem;
+    }
+
+
+    }
+
+
+
+
+
+
+    
+
+        
+
